@@ -1,5 +1,3 @@
-
-
 def insertionSort(arr)
     for i in 1...(arr.length)
         m = i 
