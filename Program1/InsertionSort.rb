@@ -1,13 +1,11 @@
-# By: Mario Gonzalez
-# 12/7/2021
-# Desc: This program sorts arrays using the insertion sort method
+
 
 def insertionSort(arr)
-    for i in 1...(arr.length) #... includes the range of the array from 1
+    for i in 1...(arr.length)
         m = i 
         while m > 0 
-            if arr[m-1] > arr[m]            #swaps the nums if the next one is smaller then the current one if not nothing happens since its sorted 
-                temp = arr[m]               #if not nothing happens since its sorted and it breaks
+            if arr[m-1] > arr[m]          
+                temp = arr[m]               
                 arr[m] = arr[m-1]
                 arr[m-1] = temp
             else
